@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 1221
 app.use(cors(corsOptions))+
 app.use(express.json())
 app.get('/', (req, res) => {
-    res.send("וחנוכה שמח🕎🍩חודש טוב ומבורך!!")
+    res.send("וחנוכה שמח לכל עם ישראל🕎🍩חודש טוב ומבורך!!")
 })
 
 
